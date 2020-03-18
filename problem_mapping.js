@@ -30,7 +30,7 @@ problem_mapping = {
         },
         "4.02 Swap bits": {
             "C++: swap_bits.cc": {
-                "passed": 0,
+                "passed": 10001,
                 "total": 10001
             },
             "Java: SwapBits.java": {
@@ -58,14 +58,14 @@ problem_mapping = {
         },
         "4.04 Find a closest integer with the same weight": {
             "C++: closest_int_same_weight.cc": {
-                "passed": 0,
+                "passed": 2,
                 "total": 10000
             },
             "Java: ClosestIntSameWeight.java": {
                 "passed": 0,
                 "total": 10000
             },
-            "Python: closest_int_same_weight.py": { 
+            "Python: closest_int_same_weight.py": {
                 "passed": 0,
                 "total": 10000
             }
@@ -86,7 +86,7 @@ problem_mapping = {
         },
         "4.06 Compute quotient without arithmetical operators": {
             "C++: primitive_divide.cc": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Java: PrimitiveDivide.java": {
@@ -114,7 +114,7 @@ problem_mapping = {
         },
         "4.08 Reverse digits": {
             "C++: reverse_digits.cc": {
-                "passed": 0,
+                "passed": 19952,
                 "total": 19952
             },
             "Java: ReverseDigits.java": {
@@ -156,7 +156,7 @@ problem_mapping = {
         },
         "4.11 Rectangle intersection": {
             "C++: rectangle_intersection.cc": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Java: RectangleIntersection.java": {
@@ -200,7 +200,7 @@ problem_mapping = {
         },
         "5.02 Increment an arbitrary-precision integer": {
             "C++: int_as_array_increment.cc": {
-                "passed": 0,
+                "passed": 505,
                 "total": 505
             },
             "Java: IntAsArrayIncrement.java": {
@@ -214,7 +214,7 @@ problem_mapping = {
         },
         "5.03 Multiply two arbitrary-precision integers": {
             "C++: int_as_array_multiply.cc": {
-                "passed": 0,
+                "passed": 1000,
                 "total": 1000
             },
             "Java: IntAsArrayMultiply.java": {

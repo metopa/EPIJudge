@@ -1,5 +1,30 @@
 # EPI Judge
 
+## TODO
+ - Update README
+   - General Info
+   - New installation guides
+     - C++
+       - CLion
+       - VS
+       - VS Code
+       - Makefiles
+     - Python
+       - PyCharm
+       - VS Code
+       - Makefiles
+     - Java
+       - IntellijIDEA
+       - VS Code
+       - Makefiles
+   - Git crash course
+     - How to update to a newer version
+   - Info about index page  
+- Top-level CMake + rename solution targets
+- Field notes
+  - Failed info
+    - sometimes it's nice to highlight mismatched digits in number (reverse_digits)
+    - add binary printer for numbers
 ## Beta 5
 
 ## Introduction

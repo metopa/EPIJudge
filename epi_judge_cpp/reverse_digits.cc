@@ -1,7 +1,18 @@
 #include "test_framework/generic_test.h"
+
+long long ReverseImpl(int x, long long tail) {
+    if (x < 10) {
+        return x + tail * 10;
+    }
+    int lsd = x % 10;
+    return ReverseImpl(x / 10, tail * 10 + lsd);
+}
 long long Reverse(int x) {
-  // TODO - you fill in here.
-  return 0;
+    if (x < 0) {
+        return -ReverseImpl(-x, 0);
+    } else {
+        return ReverseImpl(x, 0);
+    }
 }
 
 int main(int argc, char* argv[]) {
